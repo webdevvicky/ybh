@@ -1,0 +1,47 @@
+{
+  "name": "your-best-hair",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "dev": "nodemon server",
+    "swagger-autogen": "node swagger.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.2",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "email-templates": "^9.0.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.14.1",
+    "google-auth-library": "^7.1.0",
+    "html": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.5",
+    "mongoose-sequence": "^5.3.1",
+    "multer": "^1.4.2",
+    "node-mailer": "^0.1.1",
+    "nodemailer": "^6.6.0",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "stripe": "^8.176.0",
+    "swagger-autogen": "^2.21.2",
+    "swagger-ui-express": "^4.4.0",
+    "tunnel-ssh": "^4.1.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
+}
